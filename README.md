@@ -2,7 +2,7 @@
 
 This project demonstrates a complete, end-to-end AI engineering pipeline designed to predict factory emission levels. From robust data handling and statistical feature selection to designing a Deep Learning architecture and deploying it on edge devices (Android) via TensorFlow Lite, this repository highlights a comprehensive skillset in Machine Learning Engineering.
 
-## 🧠 Core AI Engineering Skills Demonstrated
+## Core AI Engineering Skills Demonstrated
 
 ### 1. Data Engineering & Preprocessing
 *   **Probabilistic Imputation:** Addressed missing categorical data not with simple modes, but by sampling from the underlying probability distributions to preserve data variance.
@@ -24,7 +24,7 @@ This project demonstrates a complete, end-to-end AI engineering pipeline designe
 *   **TensorFlow Lite Integration:** Successfully bridged the gap between model training and mobile deployment by converting the heavy Keras model into a compressed `.tflite` format.
 *   **State Extraction for Edge Inference:** Automated the extraction of training states into JSON configuration files (`scaler_params.json`, `categorical_mappings.json`, `target_label_mapping.json`, `feature_columns.json`). This ensures the Android mobile client can perfectly replicate the Python preprocessing pipeline on the edge device without discrepancies.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── ml_model/                  # Core AI pipeline and model generation 
@@ -33,7 +33,7 @@ This project demonstrates a complete, end-to-end AI engineering pipeline designe
 └── android_app/               # Native edge deployment integrating the TFLite model
 ```
 
-## 🚀 Running the ML Pipeline
+## Running the ML Pipeline
 
 To reproduce the AI training and export process:
 
