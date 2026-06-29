@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Factory_Emission"
+        tools:targetApi="31">
+        <activity
+            android:name=".operator.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".operator.AnalyzeFactoryEmissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PollutionInfoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Factory_Emission" />
+        <activity
+            android:name=".ViewFactoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UpdatePollutantActivity"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD0RjXoSjAu-85QAqK_jEjfJBNe92u3ac8" />
+
+        <activity
+            android:name=".admin.ChooseFactoryLocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_choose_factory_location" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UpdateFactoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.FactoryLocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_factory_location" />
+        <activity
+            android:name=".admin.EditProfileAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".operator.FactoryEmissionReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".operator.RequestAnalyzeEmissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddOperatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".operator.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".operator.AddFactoryEmissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EmissionReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManagePollutantsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageOperatorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageFactoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddPollutantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddFactoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".operator.OperatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

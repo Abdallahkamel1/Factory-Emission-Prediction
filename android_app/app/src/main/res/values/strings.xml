@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Factory_Emission</string>
+    <string name="welcome">Welcome</string>
+    <string name="come_back">Back!</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="forget">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="forget1">Forget</string>
+    <string name="pass1">Password ?</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="enter_email">Enter your email address</string>
+    <string name="send_message">* We will send you a message to reset your new password</string>
+    <string name="received_email">Type the 8 bit code you received in your email</string>
+    <string name="reset_code">Enter 6-bit code</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="admin">Administrator</string>
+    <string name="manage_factory">Manage Factories</string>
+    <string name="manage_operators">Manage Operators</string>
+    <string name="manage_pollutants">Manage Pollutants</string>
+    <string name="view_emission_report">View Emission Report</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="factory_operator">Factory Operator</string>
+    <string name="add_factory_emission">Add Factory Emission</string>
+    <string name="analyze_factory_emission">Analyze Factory Emission</string>
+    <string name="add_factory_operator">Add Factory Operator</string>
+    <string name="phone">Phone</string>
+    <string name="operator_name">Operator Name</string>
+    <string name="add_operator">Add Operator</string>
+    <string name="add_factory">Add Factory</string>
+    <string name="factory_name">Factory Name</string>
+    <string name="industry_type">Industry Type</string>
+    <string name="city">City</string>
+    <string name="factory_location">Factory Location</string>
+    <array name="city">
+        <item>Abha</item>
+        <item>Dammam</item>
+        <item>Hail</item>
+        <item>Jazan</item>
+        <item>Jeddah</item>
+        <item>Jubail</item>
+        <item>Rabigh</item>
+        <item>Riyadh</item>
+        <item>Tabuk</item>
+        <item>Yanbu</item>
+    </array>
+    <array name="industry">
+        <item>Aluminum</item>
+        <item>Cement</item>
+        <item>Electronics</item>
+        <item>Fertilizer</item>
+        <item>Food Processing</item>
+        <item>Glass</item>
+        <item>Mining</item>
+        <item>Paper</item>
+        <item>Petrochemical</item>
+        <item>Pharmaceutical</item>
+        <item>Plastics</item>
+        <item>Power Generation</item>
+        <item>Steel</item>
+        <item>Textile</item>
+        <item>Water Desalination</item>
+    </array>
+    <array name="pollutant">
+        <item>Carbon dioxide (CO₂)</item>
+        <item>Sulfur dioxide (SO₂)</item>
+        <item>Nitrogen oxides (NO)</item>
+        <item>Particulate matter (PM)</item>
+    </array>
+    <array name="pollutant2">
+        <item>CO</item>
+        <item>SO</item>
+        <item>NO</item>
+        <item>PM</item>
+    </array>
+    <array name="fuel">
+        <item>Diesel</item>
+        <item>Electricity</item>
+        <item>Heavy Fuel Oil</item>
+        <item>Mixed</item>
+        <item>Natural Gas</item>
+    </array>
+    <string name="factory_city">Factory City</string>
+    <string name="add_pollutant">Add Pollutant</string>
+    <string name="safe_limit">Safe Limit</string>
+    <string name="pollutant_name">Pollutant Name</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
+    <string name="emission_report">Emission Report</string>
+    <string name="form">From</string>
+    <string name="to">To</string>
+    <string name="view_report">View Report</string>
+    <string name="co2_level">CO2 Level</string>
+    <string name="so2_level">SO2 Level</string>
+    <string name="no_level">NO Level</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="add_emission">Add Emission</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="analysis_result">Request AI-Analysis</string>
+    <string name="email_wrong">Email is required</string>
+    <string name="pass_wrong">Password is required</string>
+    <string name="email_invalid">Email is invalid</string>
+    <string name="secret_code">Secret Code is required</string>
+    <string name="code_mismatch">Code mismatch</string>
+    <string name="pass_length">Password length between 6 and 20</string>
+    <string name="pass_invalid">Password should contain letters and numbers only</string>
+    <string name="pass_mismatch">Password mismatch</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_logout">Are you sure to Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="name_required">Name is required</string>
+    <string name="phone_required">Phone is required</string>
+    <string name="phone_length">Phone should contain 10 digits at least</string>
+    <string name="phone_numbers">Phone should contain numbers only</string>
+    <string name="factory_info">Factory Details</string>
+    <string name="factory_fuel">Fuel Type</string>
+    <string name="view_factory_location">View Factory Location</string>
+    <string name="title_activity_factory_location">Factory Location</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="confirm_delete2">Are you sure to delete this item?</string>
+    <string name="cancel">Cancel</string>
+    <string name="factory_latitude">Factory Latitude</string>
+    <string name="factory_longitude">Factory Longitude</string>
+    <string name="title_activity_choose_factory_location">Choose Factory Location</string>
+    <string name="search_txt">Write search text</string>
+    <string name="update_factory">Update Factory</string>
+    <string name="safe_required">Safe Limit required</string>
+    <string name="update_pollutant">Update Pollutant</string>
+    <string name="choose_pollutant">Choose Pollutant</string>
+    <string name="pm_level">PM Emission Level</string>
+    <string name="co2_required">CO2 Level Required</string>
+    <string name="so2_required">SO2 Level Required</string>
+    <string name="no_required">NO Level Required</string>
+    <string name="pm_required">PM Level Required</string>
+    <string name="emission_error">Emission Level should be numbers only</string>
+    <string name="view_factories">View Factories and Emission</string>
+    <string name="view_factory">View Factories</string>
+    <string name="pollution_info">Pollution Info.</string>
+    <string name="second_fragment_label">Second Fragment Label</string>
+    <string name="first_fragment_label">First Fragment Label</string>
+    <string name="lorem_ipsum">Emission Details</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="add_emission_analyze">Add Emission and Request Analyze</string>
+    <string name="production">Production Capacity tons/year</string>
+    <string name="production_required">Production Capacity Required</string>
+    <string name="production_error">Production Capacity should be numbers</string>
+    <string name="prediction">Prediction</string>
+    <string name="note_details">Notification Details</string>
+    <string name="alerts">Emission Alerts</string>
+    <string name="from_required">Start Date Required</string>
+    <string name="to_required">Date To Required</string>
+    <string name="avg_co2">Average Pollutant in period</string>
+    <string name="pollutant">Pollutant</string>
+    <string name="clear">Clear</string>
+    <string name="english">English</string>
+    <string name="arabic">عربي</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

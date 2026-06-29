@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Factory_Emission</string>
+    <string name="welcome">مرحباً</string>
+    <string name="come_back">بعودتك</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="pass">كلمة المرور</string>
+    <string name="forget">نسيت كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="forget1">نسيت</string>
+    <string name="pass1">كلمة المرور ؟</string>
+    <string name="reset">تغيير</string>
+    <string name="submit">إرسال</string>
+    <string name="enter_email">اكتب بريدك الالكتروني</string>
+    <string name="send_message">* سنرسل إليك رسالة لإعادة تعيين كلمة مرورك الجديدة</string>
+    <string name="received_email">أدخل الرمز المكون من 8 بت الذي استلمته في بريدك الإلكتروني</string>
+    <string name="reset_code">أدخل الرمز المكون من 6 بت</string>
+    <string name="confirm_pass">تأكيد كلمة المرور</string>
+    <string name="admin">مدير النظام</string>
+    <string name="manage_factory">إدارة المصانع</string>
+    <string name="manage_operators">إدارة المشغلين</string>
+    <string name="manage_pollutants">إدارة الملوثات</string>
+    <string name="view_emission_report">عرض تقارير الانبعاثات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="home">الرئيسية</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="factory_operator">مشغل المصنع</string>
+    <string name="add_factory_emission">إضافة انبعاثات المصنع</string>
+    <string name="analyze_factory_emission">تحليل انبعاثات المصنع</string>
+    <string name="add_factory_operator">إضافة مشغل مصنع</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="operator_name">اسم المشغل</string>
+    <string name="add_operator">إضافة مشغل</string>
+    <string name="add_factory">إضافة مصنع</string>
+    <string name="factory_name">اسم المصنع</string>
+    <string name="industry_type">نوع الصناعة</string>
+    <string name="city">المدينة</string>
+    <string name="factory_location">موقع المصنع</string>
+    <array name="city">
+        <item>Abha</item>
+        <item>Dammam</item>
+        <item>Hail</item>
+        <item>Jazan</item>
+        <item>Jeddah</item>
+        <item>Jubail</item>
+        <item>Rabigh</item>
+        <item>Riyadh</item>
+        <item>Tabuk</item>
+        <item>Yanbu</item>
+    </array>
+    <array name="industry">
+        <item>Aluminum</item>
+        <item>Cement</item>
+        <item>Electronics</item>
+        <item>Fertilizer</item>
+        <item>Food Processing</item>
+        <item>Glass</item>
+        <item>Mining</item>
+        <item>Paper</item>
+        <item>Petrochemical</item>
+        <item>Pharmaceutical</item>
+        <item>Plastics</item>
+        <item>Power Generation</item>
+        <item>Steel</item>
+        <item>Textile</item>
+        <item>Water Desalination</item>
+    </array>
+    <array name="fuel">
+        <item>Diesel</item>
+        <item>Electricity</item>
+        <item>Heavy Fuel Oil</item>
+        <item>Mixed</item>
+        <item>Natural Gas</item>
+    </array>
+    <string name="factory_city">مدينة المصنع</string>
+    <string name="add_pollutant">إضافة ملوث</string>
+    <string name="safe_limit">الحد الآمن</string>
+    <string name="pollutant_name">اسم الملوث</string>
+    <string name="update">تحديث</string>
+    <string name="delete">حذف</string>
+    <string name="view">عرض</string>
+    <string name="emission_report">تقرير الانبعاثات</string>
+    <string name="form">من</string>
+    <string name="to">إلى</string>
+    <string name="view_report">عرض التقرير</string>
+    <string name="co2_level">مستوى ثاني أكسيد الكربون</string>
+    <string name="so2_level">مستوى الكبريت</string>
+    <string name="no_level">مستوى النيتروجين</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="add_emission">إضافة الانبعاث</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="name">الاسم</string>
+    <string name="save">حفظ</string>
+    <string name="analysis_result">طلب تحليل الانبعاثات</string>
+    <string name="email_wrong">البريد الالكتروني مطلوب</string>
+    <string name="pass_wrong">كلمة المرور مطلوبة</string>
+    <string name="email_invalid">البريد الإلكتروني غير صالح</string>
+    <string name="secret_code">الرمز السري مطلوب</string>
+    <string name="code_mismatch">الكود غير متطابق</string>
+    <string name="pass_length">"طول كلمة المرور بين 6 إلى 20 "</string>
+    <string name="pass_invalid">يجب أن تحتوي كلمة المرور على أحرف وأرقام فقط</string>
+    <string name="pass_mismatch">عدم تطابق كلمة المرور</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="confirm_logout">هل تريد بالتأكيد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="name_required">الاسم مطلوب</string>
+    <string name="phone_required">رقم الهاتف مطلوب</string>
+    <string name="phone_length">يجب أن يحتوي رقم الهاتف على 10 أرقام على الأقل</string>
+    <string name="phone_numbers">يجب أن يحتوي الهاتف على أرقام فقط</string>
+    <string name="factory_info">تفاصيل المصنع</string>
+    <string name="factory_fuel">نوع الوقود</string>
+    <string name="view_factory_location">عرض موقع المصنع</string>
+    <string name="title_activity_factory_location">موقع المصنع</string>
+    <string name="confirm_delete">تأكيد الحذف</string>
+    <string name="confirm_delete2">هل تريد بالتأكيد حذف العنصر المحدد ؟</string>
+    <string name="cancel">إلغاء الأمر</string>
+    <string name="factory_latitude">الموقع عرضياً</string>
+    <string name="factory_longitude">الموقع طولياً</string>
+    <string name="title_activity_choose_factory_location">اختر موقع المصنع</string>
+    <string name="search_txt">اكتب نص البحث</string>
+    <string name="update_factory">تعديل المصنع</string>
+    <array name="pollutant">
+        <item>Carbon dioxide (CO₂) </item>
+        <item>Sulfur dioxide (SO₂)</item>
+        <item>Nitrogen oxides (NO) </item>
+        <item>Particulate matter (PM)</item>
+        <item>Carbon monoxide (CO)</item>
+    </array>
+    <string name="safe_required">الحد الآمن مطلوب</string>
+    <string name="update_pollutant">تعديل الملوث</string>
+    <string name="choose_pollutant">اختر الملوث</string>
+    <string name="pm_level">مستوى انبعاثات الجسيمات الدقيقة</string>
+    <string name="co2_required">مستوى تلوث اكسيد الكربون مطلوب</string>
+    <string name="so2_required">مستوى تلوث اكسيد الكبريت مطلوب</string>
+    <string name="no_required">مستوى تلوث اكسيد النيتروجين مطلوب</string>
+    <string name="pm_required">مستوى تلوث الجسيمات الدقيقة مطلوب</string>
+    <string name="emission_error">مستوى التلوث بجب أن يكون أرقام</string>
+    <string name="view_factories">عرض المصانع والتلوث</string>
+    <string name="view_factory">عرض المصانع</string>
+    <string name="pollution_info">معلومات حول التلوث</string>
+    <string name="second_fragment_label">الجزء الثاني</string>
+    <string name="first_fragment_label">الجزء الأول</string>
+    <string name="lorem_ipsum">تفاصيل التلوث</string>
+    <string name="previous">السابق</string>
+    <string name="next">التالي</string>
+    <string name="add_emission_analyze">إضافة انبعاثات وطلب تحليلها</string>
+    <string name="production">الطاقة الإنتاجية بالطن/سنة</string>
+    <string name="production_required">الطاقة الإنتاجية مطلوبة</string>
+    <string name="production_error">الطاقة الإنتاجية يجب أن تكون أرقام فقط</string>
+    <string name="prediction">المتوقع</string>
+    <string name="note_details">تفاصيل التنبيه</string>
+    <string name="alerts">تنبيهات التلوث</string>
+    <string name="from_required">تاريخ البداية مطلوب</string>
+    <string name="to_required">تاريخ النهاية مطلوب</string>
+    <string name="avg_co2">"متوسط الملوث في الفترة "</string>
+    <string name="pollutant">الملوث</string>
+    <string name="clear">إزالة</string>
+    <string name="english">انجليزي</string>
+    <string name="arabic">Arabic</string>
+</resources>
